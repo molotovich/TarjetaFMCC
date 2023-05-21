@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TarjetaFMCC</string>
+    <string name="fondo">fondo</string>
+    <string name="universidad_m_s_educaci_n_y_ense_anza">Universidad Más Educación y Enseñanza</string>
+    <string name="col_jesus_garcia_villahermosa_tabasco">Col. jesus Garcia, Villahermosa, Tabasco</string>
+    <string name="plutarco_elias_calles_321">Plutarco Elias Calles 321</string>
+    <string name="director_de_servicios_generales">Director de Servicios Generales</string>
+    <string name="fernando_miguel_carmona_casanova">Fernando Miguel Carmona Casanova</string>
+</resources>

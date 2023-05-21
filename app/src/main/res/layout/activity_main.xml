@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/fondo"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fondo" />
+
+    <TextView
+        android:id="@+id/Texto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="@string/universidad_m_s_educaci_n_y_ense_anza"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="210dp"
+        android:layout_below="@id/Texto1"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/fondo"
+        android:scaleType="fitXY"
+        android:src="@drawable/cara" />
+
+    <TextView
+        android:id="@+id/Nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/montserrat_alternates_semibold"
+        android:text="@string/fernando_miguel_carmona_casanova"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/Cargo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Nombre"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/montserrat_alternates"
+        android:text="@string/director_de_servicios_generales"
+        android:textAlignment="center"
+        android:textColor="#DD9518"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/Direccion1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Direccion2"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/montserrat_alternates"
+        android:text="@string/plutarco_elias_calles_321"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/Direccion2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15sp"
+        android:fontFamily="@font/montserrat_alternates"
+        android:text="@string/col_jesus_garcia_villahermosa_tabasco"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+</RelativeLayout>
